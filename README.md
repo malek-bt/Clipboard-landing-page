@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Code on GitHub](https://github.com/malek-bt/Clipboard-landing-page)
-- Live Site URL: [GitHub Pages Live URL](https://clipboard-landing-page-solution1.vercel.app/)
+- Live Site URL: [GitHub Pages Live URL](https://clipboard-landing-page-malek-bt.vercel.app/)
 
 
 ### Getting Started
