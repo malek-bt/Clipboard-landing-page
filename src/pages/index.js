@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
       <header className={styles.header}>
-        <img src="/logo.svg"></img>
+        <img src="/logo.svg" alt="logo"></img>
       </header>
       <main className={styles.main}>
         <section className={styles.history_section}>
@@ -34,7 +34,7 @@ export default function Home() {
 
           <div className={styles.track_div}>
            
-              <img src="/image-computer.png"></img>
+              <img src="/image-computer.png" alt="computer image"></img>
             
             <div>
               <h3>Quick Search</h3>
@@ -61,7 +61,7 @@ export default function Home() {
             Whether you're on the go, or at your computer, you can access all
             your Clipboard snippets in a few simple clicks.
           </p>
-          <img src="/image-devices.png"></img>
+          <img src="/image-devices.png" alt="devices image"></img>
         </section>
 
         <section className={styles.supercharge_section}>
@@ -69,7 +69,7 @@ export default function Home() {
           <p>We've got the tools to boost your productivity.</p>
           <div className={styles.workflow}>
             <div>
-              <img src="icon-blacklist.svg"></img>
+              <img src="icon-blacklist.svg" alt="blacklist icon"></img>
               <h3>Create blacklists</h3>
               <p>
                 Ensure sensitive information never makes its way to your
@@ -78,7 +78,7 @@ export default function Home() {
             </div>
 
             <div>
-              <img src="icon-text.svg"></img>
+              <img src="icon-text.svg" alt="text icon"></img>
               <h3>Plain text snippets</h3>
               <p>
                 Remove unwanted formatting from copied text for a consistent
@@ -87,7 +87,7 @@ export default function Home() {
             </div>
 
             <div>
-              <img src="icon-preview.svg"></img>
+              <img src="icon-preview.svg" alt="preview icon"></img>
               <h3>Sneak preview</h3>
               <p>
                 Quick preview of all snippets on your Clipboard for easy access.
@@ -96,11 +96,11 @@ export default function Home() {
           </div>
 
           <div className={styles.companies}>
-            <img src="logo-google.png"></img>
-            <img src="logo-ibm.png"></img>
-            <img src="logo-microsoft.png"></img>
-            <img src="logo-hp.png"></img>
-            <img src="logo-vector-graphics.png"></img>
+            <img src="logo-google.png" alt="google icon"></img>
+            <img src="logo-ibm.png" alt="ibm icon"></img>
+            <img src="logo-microsoft.png" alt="microsoft icon"></img>
+            <img src="logo-hp.png" alt="hp icon"></img>
+            <img src="logo-vector-graphics.png" alt="vector graphics icon"></img>
           </div>
         </section>
 
@@ -116,7 +116,7 @@ export default function Home() {
         </section>
       </main>
       <footer className={styles.footer}>
-        <img src="/logo.svg"></img>
+        <img src="/logo.svg" alt="logo"></img>
         <div className={styles.links}>
           <p>FAQs</p>
           <p>Contact Us</p>
@@ -126,9 +126,9 @@ export default function Home() {
         </div>
 
         <div className={styles.social_media}>
-          <img src="/icon-facebook.svg"></img>
-          <img src="/icon-twitter.svg"></img>
-          <img src="/icon-instagram.svg"></img>
+          <img src="/icon-facebook.svg" alt="facebook icon"></img>
+          <img src="/icon-twitter.svg" alt="twitter icon"></img>
+          <img src="/icon-instagram.svg" alt="instragram icon"></img>
         </div>
       </footer>
     </>
